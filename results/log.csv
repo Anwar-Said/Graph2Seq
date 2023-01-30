@@ -1,2 +1,4 @@
-dataset: no_cycle, #epochs: 10, seed:123, batch_size: 8, gnn_hidden: 32, rnn_hidden: 64, loss: 1.6188, acc:0.125
-dataset: no_cycle, #epochs: 10, seed:123, batch_size: 8, gnn_hidden: 64, rnn_hidden: 128, loss: 2.3731, acc:11.0794
+dataset: no-cycle, GNN: ResGatedGraphConv,#epochs: 50, seed:123, batch_size: 8, gnn_hidden: 64, rnn_hidden: 128, loss: 12.0441, acc:99.9765
+dataset: no-cycle, GNN: GCNConv,#epochs: 50, seed:123, batch_size: 8, gnn_hidden: 64, rnn_hidden: 128, loss: 12.0228, acc:100.0
+dataset: no-cycle, GNN: SAGEConv,#epochs: 50, seed:123, batch_size: 8, gnn_hidden: 64, rnn_hidden: 128, loss: 12.0176, acc:99.9765
+dataset: no-cycle, GNN: GraphConv,#epochs: 50, seed:123, batch_size: 8, gnn_hidden: 64, rnn_hidden: 128, loss: 12.0146, acc:99.9765

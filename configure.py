@@ -1,7 +1,7 @@
 
-train_data_path = "/home/anwar/Desktop/code challenge/Graph2Seq/datasets/no_cycle/train.data"
-dev_data_path = "/home/anwar/Desktop/code challenge/Graph2Seq/datasets/no_cycle/dev.data"
-test_data_path = "/home/anwar/Desktop/code challenge/Graph2Seq/datasets/no_cycle/test.data"
+train_data_path = "datasets/no_cycle/train.data"
+dev_data_path = "datasets/no_cycle/dev.data"
+test_data_path = "datasets/no_cycle/test.data"
 
 word_idx_file_path = "datasets/word.idx"
 
@@ -10,14 +10,13 @@ gnn_layers = 3
 rnn_layers = 3
 rnn_hidden = 128
 gnn_hidden = 64
-lr = 1e-4
+lr = 1e-6
 wd = 1e-3
 seed = 809
 num_features = 21
 vocab_size = 21
 train_batch_size = 8
 test_batch_size = 8
-
 l2_lambda = 0.000001
 dropout = 0.0
 epochs = 50

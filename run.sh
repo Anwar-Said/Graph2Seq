@@ -1,5 +1,9 @@
 dataset="no-cycle"
 seed="123"
-epochs="100"
+epochs="50"
+models="ResGatedGraphConv GCNConv SAGEConv GraphConv"
 main="main.py"
-python $main --dataset $dataset --epochs $epochs --seed $seed
+for model in $models
+do
+    python $main --gnn $model --dataset $dataset --epochs $epochs --seed $seed
+done

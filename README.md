@@ -3,10 +3,10 @@ This package contains the implementation of Graph2Seq paper in pytorch.
 
 Requirements
 
-torch </br>
+torch==2.0.1 </br>
 torch_geometric==2.3.1 </br>
 torch_sparse </br>
-networkx
+networkx==2.6
 
 
 running the model....
